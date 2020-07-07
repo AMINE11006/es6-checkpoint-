@@ -25,7 +25,7 @@ getDogs = () => {
   };
 getDogs()
 
-  function findAge() {
+  findAge = () => {
     const jasper = pets.find(pet=>{return pet.name === "Jasper"});
     let age = getAge(jasper);
 console.log(`Jasper is ${age} years old`);    
